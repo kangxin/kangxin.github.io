@@ -14,14 +14,13 @@ body {
     padding: 20px;
 }
 
-/* Sidebar styles */
 aside.sidebar {
     flex: 0 0 300px;
-    background: #ffffff;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
     margin-right: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .profile-photo-container {
@@ -56,41 +55,45 @@ aside.sidebar {
     text-decoration: underline;
 }
 
-/* Main content styles */
 main.content {
     flex: 1;
-    background: #ffffff;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-nav ul {
-    display: flex;
-    justify-content: flex-start;
-    list-style: none;
-    padding: 0;
-    margin: 0 0 20px;
-    border-bottom: 2px solid #ddd;
-}
-
-nav ul li {
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #333;
-    font-weight: bold;
-    text-decoration: none;
+nav.sticky-nav {
+    position: sticky;
+    top: 0;
+    background: #0056b3;
     padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
-nav ul li a:hover {
-    color: #0056b3;
+nav.sticky-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-section {
-    margin-bottom: 30px;
+nav.sticky-nav ul li {
+    margin: 0 15px;
+}
+
+nav.sticky-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+nav.sticky-nav ul li a:hover {
+    background: #004080;
+    border-radius: 4px;
 }
 
 h2 {
@@ -98,6 +101,10 @@ h2 {
     border-bottom: 2px solid #0056b3;
     padding-bottom: 5px;
     margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 30px;
 }
 
 footer {
@@ -108,4 +115,3 @@ footer {
     font-size: 0.9rem;
     margin-top: 40px;
 }
-
