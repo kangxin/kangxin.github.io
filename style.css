@@ -29,12 +29,12 @@ aside.sidebar {
 }
 
 .profile-photo-container img {
-    width: 180px;
+    width: 100%;
+    max-width: 240px;
     height: auto;
-    max-height: 240px; /* Allow for proper height without cropping */
-    border-radius: 12px; /* Slight rounding to avoid harsh corners */
+    border-radius: 8px;
     object-fit: cover;
-    object-position: top center; /* Adjust focus on the face */
+    object-position: top center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
