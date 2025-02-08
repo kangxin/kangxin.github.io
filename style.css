@@ -30,9 +30,11 @@ aside.sidebar {
 
 .profile-photo-container img {
     width: 180px;
-    height: 180px;
-    border-radius: 50%;
+    height: auto;
+    max-height: 240px; /* Allow for proper height without cropping */
+    border-radius: 12px; /* Slight rounding to avoid harsh corners */
     object-fit: cover;
+    object-position: top center; /* Adjust focus on the face */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
