@@ -2,8 +2,8 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #1b1b1b;
-    color: #e0e0e0;
+    background-color: #ffffff;
+    color: #333;
     line-height: 1.6;
 }
 
@@ -18,9 +18,9 @@ aside.sidebar {
     flex: 0 0 300px;
     margin-right: 20px;
     padding: 20px;
-    background: #2a2a2a;
+    background: #f9f9f9;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .profile-photo-container {
@@ -35,7 +35,7 @@ aside.sidebar {
     border-radius: 8px;
     object-fit: cover;
     object-position: top center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact-info {
@@ -49,7 +49,7 @@ aside.sidebar {
 }
 
 .contact-info a {
-    color: #4db8ff;
+    color: #003366;
     text-decoration: none;
 }
 
@@ -60,17 +60,17 @@ aside.sidebar {
 main.content {
     flex: 1;
     padding: 20px;
-    background: #2a2a2a;
+    background: #ffffff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 nav.sticky-nav {
     position: sticky;
     top: 0;
-    background: #333333;
+    background: #003366;
     padding: 10px 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
 
@@ -87,21 +87,20 @@ nav.sticky-nav ul li {
 }
 
 nav.sticky-nav ul li a {
-    color: #e0e0e0;
+    color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
 }
 
 nav.sticky-nav ul li a:hover {
-    background: #4db8ff;
-    color: #000;
+    background: #002244;
     border-radius: 4px;
 }
 
 h2 {
-    color: #4db8ff;
-    border-bottom: 2px solid #4db8ff;
+    color: #003366;
+    border-bottom: 2px solid #003366;
     padding-bottom: 5px;
     margin-bottom: 15px;
 }
@@ -113,8 +112,8 @@ section {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333333;
-    color: #e0e0e0;
+    background: #003366;
+    color: #ffffff;
     font-size: 0.9rem;
     margin-top: 40px;
 }
