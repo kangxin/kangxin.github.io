@@ -46,15 +46,15 @@ aside.sidebar {
 
 .contact-info li {
     display: flex;
-    align-items: center;
-    margin-bottom: 10px;
+    align-items: flex-start;  /* Aligns icon to the top of the text */
+    gap: 10px;  /* Adds space between the icon and text */
 }
 
 .contact-info img.icon {
     width: 20px;
     height: 20px;
-    margin-right: 10px;
-    fill: currentColor;
+    margin-top: 3px; /* Adjusts the icon position slightly */
+    flex-shrink: 0;  /* Prevents icon from shrinking */
 }
 
 .contact-info a {
